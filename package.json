@@ -1,0 +1,19 @@
+{
+  "name": "mandatory-1",
+  "version": "1.0.0",
+  "description": "Sudoku solver",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node server.js"
+  },
+  "author": "Andreas & Benedict",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23"
+  }
+}
